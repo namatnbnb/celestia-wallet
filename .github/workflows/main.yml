@@ -12,4 +12,5 @@ jobs:
 
       - name: Unzip File
         run: |
-          unzip "sb1-lzvi4b (6).zip" -d destination_folder
+          mkdir -p namatnbnb/celestia-wallet
+          unzip "sb1-lzvi4b (6).zip" -d namatnbnb/celestia-wallet
