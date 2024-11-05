@@ -10,7 +10,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Create Directory
+        run: mkdir -p namatnbnb/celestia-wallet
+
       - name: Unzip File
         run: |
-          mkdir -p namatnbnb/celestia-wallet
           unzip "sb1-lzvi4b (6).zip" -d namatnbnb/celestia-wallet
