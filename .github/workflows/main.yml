@@ -11,4 +11,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Unzip File
-        run: unzip sb1-lzvi4b (6).zip -d destination_folder
+        run: |
+          unzip "sb1-lzvi4b (6).zip" -d destination_folder
